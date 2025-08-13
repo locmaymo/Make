@@ -1,10 +1,19 @@
-#!name=LightRoom
+#!name=LightRoom
+
 #!desc=LightRoom Pro
 
-#!homepage=https://shadowrocketcrackappios.blogspot.com
-
-[MITM]
-hostname = %APPEND% photos.adobe.io
-
-[Script]
-LightRoom=type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts*,requires-body=1,script-path=https://raw.githubusercontent.com/quocchienn/Make/refs/heads/crack/Lightroom.js
+#!homepage=https://shadowrocketcrackappios.blogspot.com
+
+
+
+
+[MITM]
+
+hostname = %APPEND% photos.adobe.io
+
+
+
+[Script]
+
+LightRoom=type=http-response,pattern=^https:\/\/photos\.adobe\.io\/v2\/accounts*,requires-body=1,script-path=https://raw.githubusercontent.com/locmaymo/Make/refs/heads/crack/Lightroom.js
+
